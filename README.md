@@ -1,1 +1,30 @@
+# Sistema de receitas
+
+## Diagrama de Classes UML
+
+```mermaid
+classDiagram
+    direction RL
+    class Ingrediente {
+        id: int
+        name: str
+        valor: float
+        status: str
+    }
+    class Receita {
+        id: int
+        nome: str
+        descricao: str
+    }
+    class Usuario {
+        id: int
+        nome: str
+        email: str
+    }
+    
+
+    Receita "*"-- "*" Ingrediente
+    Usuario "1" -- "*" Receita
+    
+```
 
