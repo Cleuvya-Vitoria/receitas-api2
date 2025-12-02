@@ -1,17 +1,17 @@
-# Aplicação de Despesas
+# Sistema de receitas
 
 ## Diagrama de Classes UML
 
 ```mermaid
 classDiagram
     direction RL
-    class Despesa {
+    class Ingrediente {
         id: int
         name: str
         valor: float
         status: str
     }
-    class Grupo {
+    class Receita {
         id: int
         nome: str
         descricao: str
@@ -20,11 +20,10 @@ classDiagram
         id: int
         nome: str
         email: str
-        idade: int
     }
     
 
-    Usuario "*"-- "*" Grupo
-    Grupo "1" -- "*" Despesa
+    Receita "*"-- "*" Ingrediente
+    Usuario "1" -- "*" Receita
     
 ```
