@@ -1,0 +1,3 @@
+1- arquitetura, models e migrações: Mariana 
+2- models, endpoints, negócios e teste de API: Cleuvya
+3-documentação: Dário

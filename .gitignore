@@ -1,0 +1,18 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos do uv
+uv.lock
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Configs específicas de IDEs
+.vscode/
+.idea/
+
+# Arquivos de build
+dist/
+build/
